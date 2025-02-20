@@ -1,0 +1,15 @@
+C:\Users\Shint\Desktop\xamarin\PRESENTACION\PRESENTACION\bin\Debug\netstandard2.0\PRESENTACION.deps.json
+C:\Users\Shint\Desktop\xamarin\PRESENTACION\PRESENTACION\bin\Debug\netstandard2.0\PRESENTACION.dll
+C:\Users\Shint\Desktop\xamarin\PRESENTACION\PRESENTACION\bin\Debug\netstandard2.0\ref\PRESENTACION.dll
+C:\Users\Shint\Desktop\xamarin\PRESENTACION\PRESENTACION\bin\Debug\netstandard2.0\PRESENTACION.pdb
+C:\Users\Shint\Desktop\xamarin\PRESENTACION\PRESENTACION\obj\Debug\netstandard2.0\PRESENTACION.csproj.AssemblyReference.cache
+C:\Users\Shint\Desktop\xamarin\PRESENTACION\PRESENTACION\obj\Debug\netstandard2.0\PRESENTACION.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Shint\Desktop\xamarin\PRESENTACION\PRESENTACION\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\Shint\Desktop\xamarin\PRESENTACION\PRESENTACION\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\Shint\Desktop\xamarin\PRESENTACION\PRESENTACION\obj\Debug\netstandard2.0\PRESENTACION.AssemblyInfoInputs.cache
+C:\Users\Shint\Desktop\xamarin\PRESENTACION\PRESENTACION\obj\Debug\netstandard2.0\PRESENTACION.AssemblyInfo.cs
+C:\Users\Shint\Desktop\xamarin\PRESENTACION\PRESENTACION\obj\Debug\netstandard2.0\PRESENTACION.csproj.CoreCompileInputs.cache
+C:\Users\Shint\Desktop\xamarin\PRESENTACION\PRESENTACION\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\Shint\Desktop\xamarin\PRESENTACION\PRESENTACION\obj\Debug\netstandard2.0\PRESENTACION.dll
+C:\Users\Shint\Desktop\xamarin\PRESENTACION\PRESENTACION\obj\Debug\netstandard2.0\refint\PRESENTACION.dll
+C:\Users\Shint\Desktop\xamarin\PRESENTACION\PRESENTACION\obj\Debug\netstandard2.0\PRESENTACION.pdb

@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PROYECTO.MainPage"
+             BackgroundColor="#F5F5F5">
+
+    <AbsoluteLayout>
+        <!-- Contenido Principal -->
+        <StackLayout Padding="20" Spacing="10" VerticalOptions="CenterAndExpand"
+                     AbsoluteLayout.LayoutFlags="All"
+                     AbsoluteLayout.LayoutBounds="0,0,1,1">
+            <!-- Foto de Perfil -->
+            <Frame CornerRadius="75"
+                   HeightRequest="150"
+                   WidthRequest="150"
+                   IsClippedToBounds="True"
+                   Padding="0"
+                   HorizontalOptions="Center">
+                <Image Source="profile.png"
+                       Aspect="AspectFill"
+                       HeightRequest="150"
+                       WidthRequest="150"/>
+            </Frame>
+
+            <!-- Nombre y Descripción -->
+            <Label Text="Victor Quezada"
+                   FontSize="24"
+                   FontAttributes="Bold"
+                   HorizontalOptions="Center"
+                   TextColor="Black"/>
+            <Label Text="Estudiante de Ingeniería en Sistemas"
+                   FontSize="18"
+                   HorizontalOptions="Center"
+                   TextColor="Gray"/>
+            <Label Text="Apasionado por la tecnología y el desarrollo de software. Constantemente aprendiendo y buscando nuevos desafíos en el mundo de la programación."
+                   FontSize="14"
+                   HorizontalOptions="Center"
+                   TextColor="Black"
+                   HorizontalTextAlignment="Center"/>
+
+            <!-- Botones -->
+            <StackLayout Spacing="10" VerticalOptions="CenterAndExpand">
+                <Button Text="YOUTUBE"
+                        BackgroundColor="Red"
+                        TextColor="White"
+                        CornerRadius="10"
+                        HeightRequest="50"
+                        FontAttributes="Bold"
+                        Clicked="OnYouTubeClicked"/>
+                <Button Text="GITHUB"
+                        BackgroundColor="Black"
+                        TextColor="White"
+                        CornerRadius="10"
+                        HeightRequest="50"
+                        FontAttributes="Bold"
+                        Clicked="OnGitHubClicked"/>
+                <Button Text="LINKEDIN"
+                        BackgroundColor="#0077B5"
+                        TextColor="White"
+                        CornerRadius="10"
+                        HeightRequest="50"
+                        FontAttributes="Bold"
+                        Clicked="OnLinkedInClicked"/>
+            </StackLayout>
+        </StackLayout>
+
+        <!-- Botón Dark Mode -->
+        <Frame AbsoluteLayout.LayoutFlags="PositionProportional"
+               AbsoluteLayout.LayoutBounds="0.95,0.95,-1,-1"
+               BackgroundColor="#2196F3"
+               CornerRadius="25"
+               HeightRequest="50"
+               WidthRequest="50"
+               Padding="0"
+               HasShadow="True">
+            <ImageButton x:Name="DarkModeButton"
+                         Source="dark_mode_icon.png"
+                         BackgroundColor="Transparent"
+                         Clicked="OnDarkModeClicked"
+                         Padding="10"/>
+        </Frame>
+    </AbsoluteLayout>
+</ContentPage>
